@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AddAgency\AddAgency.csproj" />
+    <ProjectReference Include="..\AddAgents\AddAgents.csproj" />
+    <ProjectReference Include="..\AddPackage\AddPackage.csproj" />
+    <ProjectReference Include="..\AddProduct\AddProduct.csproj" />
+    <ProjectReference Include="..\AddSupply\AddSupply.csproj" />
+    <ProjectReference Include="..\AgencyView\AgencyView.csproj" />
+    <ProjectReference Include="..\AgentView\AgentView.csproj" />
+    <ProjectReference Include="..\CurrentUser\CurrentUser.csproj" />
+    <ProjectReference Include="..\EditAgency\EditAgency.csproj" />
+    <ProjectReference Include="..\EditAgent\EditAgent.csproj" />
+    <ProjectReference Include="..\EditPackage\EditPackage.csproj" />
+    <ProjectReference Include="..\EditProducts\EditProducts.csproj" />
+    <ProjectReference Include="..\EditSupply\EditSupply.csproj" />
+    <ProjectReference Include="..\Login\Login.csproj" />
+    <ProjectReference Include="..\PackageView\PackageView.csproj" />
+    <ProjectReference Include="..\Product\Product.csproj" />
+    <ProjectReference Include="..\TravelData\TravelData.csproj" />
+  </ItemGroup>
+
+</Project>
